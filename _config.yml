@@ -1,0 +1,8 @@
+# Site settings
+title: DC Community Gardens Data
+description: "A visualization of DC's Community Gardens"
+baseurl: "/dc_community_gardens_visualization"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
