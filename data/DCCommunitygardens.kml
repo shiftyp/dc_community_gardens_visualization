@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>DC Community gardens</name>
+  <description><![CDATA[A map created by the Neighborhood Farm Initiative showing all of the community gardens located within DC. 
+
+]]></description>
+  <Style id="style13">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style31">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style19">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style17">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style41">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style33">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style45">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style37">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style27">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style21">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style28">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style14">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style22">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style36">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style46">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style15">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style26">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style42">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style49">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style35">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style32">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style20">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style40">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style38">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style25">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style30">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style39">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style29">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style34">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style18">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style47">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style12">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style16">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style43">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style48">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style44">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style23">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style10">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style24">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>Newark Street Garden</name>
+    <description><![CDATA[<div dir="ltr" style="font-family:arial;font-size:10pt"><a href="http://newarkstcommunitygarden.org/" style="font-size:10pt" target="_blank">http://newarkstcommunitygarden.org/</a></div><div dir="ltr" style="font-family:arial;font-size:10pt"><br>&nbsp;</div><div dir="ltr"><font face="arial"><span style="font-size:13px"><a href="http://fieldtoforknetwork.org/community-gardens/newark-street/" target="_blank">http://fieldtoforknetwork.org/community-gardens/newark-street/</a></span></font></div>]]></description>
+    <styleUrl>#style13</styleUrl>
+    <Point>
+      <coordinates>-77.075897,38.935112,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>West End Garden</name>
+    <description><![CDATA[<div dir="ltr"><font face="arial"><span style="font-size:13px"><a href="http://www.ourwestendgarden.com/p/welcome.html" target="_blank">http://www.ourwestendgarden.com/p/welcome.html</a></span></font></div><div dir="ltr" style="font-family:arial;font-size:10pt"><a href="http://www.ourwestendgarden.com/p/welcome.html" target="_blank"><br></a></div><div dir="ltr" style="font-family:arial;font-size:10pt"><a href="http://fieldtoforknetwork.org/community-gardens/west-end/" target="_blank">http://fieldtoforknetwork.org/community-gardens/west-end/</a></div>]]></description>
+    <styleUrl>#style31</styleUrl>
+    <Point>
+      <coordinates>-77.053299,38.908066,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Friendship Garden</name>
+    <description><![CDATA[<div dir="ltr"><a href="http://fieldtoforknetwork.org/community-gardens/friendship/" target="_blank">http://fieldtoforknetwork.org/community-gardens/friendship/</a></div>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>-77.088036,38.944275,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Common Good City Farm</name>
+    <description><![CDATA[<div dir="ltr"><a href="http://commongoodcityfarm.org/" style="font-size:10pt" target="_blank">http://commongoodcityfarm.org/</a><br><br>DPR Park at LeDroit</div>]]></description>
+    <styleUrl>#style19</styleUrl>
+    <Point>
+      <coordinates>-77.016678,38.918159,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Euclid St Garden</name>
+    <description><![CDATA[<div dir="ltr"><a href="https://www.facebook.com/justiceparkgarden" style="font-size:10pt" target="_blank">https://www.facebook.com/justiceparkgarden</a></div><div dir="ltr"><br>&nbsp;</div><div dir="ltr">DPR Concrete raised beds</div><div dir="ltr">&nbsp;</div>]]></description>
+    <styleUrl>#style17</styleUrl>
+    <Point>
+      <coordinates>-77.032761,38.923409,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Girard Childrens Garden</name>
+    <description><![CDATA[<div dir="ltr"><a href="http://cityblossoms.org/projects/girard-childrens-community-garden/" target="_blank">http://cityblossoms.org/projects/girard-childrens-community-garden/</a></div>]]></description>
+    <styleUrl>#style41</styleUrl>
+    <Point>
+      <coordinates>-77.034393,38.924812,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Edgewood Community Garden</name>
+    <description><![CDATA[<div dir="ltr"><a href="http://edgewoodcommunitygardendc.blogspot.com/" target="_blank">http://edgewoodcommunitygardendc.blogspot.com/</a></div>]]></description>
+    <styleUrl>#style33</styleUrl>
+    <Point>
+      <coordinates>-77.001785,38.924648,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lederer Youth Garden</name>
+    <description><![CDATA[<div dir="ltr"><font face="arial"><span style="font-size:13px"><a href="http://dcfoodforall.com/2009/11/taking-a-look-at-the-lederer-youth-garden/" target="_blank">http://dcfoodforall.com/2009/11/taking-a-look-at-the-lederer-youth-garden/</a></span></font></div><div dir="ltr" style="font-family:arial;font-size:10pt"><span style="font-size:10pt">&nbsp;</span></div><div dir="ltr" style="font-family:arial;font-size:10pt"><a href="https://www.facebook.com/pages/Lederer-Youth-Garden/141579762524675" target="_blank">https://www.facebook.com/pages/Lederer-Youth-Garden/141579762524675</a></div><div dir="ltr" style="font-family:arial;font-size:10pt"><span style="font-size:10pt">&nbsp;</span></div><div dir="ltr" style="font-family:arial;font-size:10pt"><span style="color:rgb(0, 0, 238);text-decoration:underline">http://fieldtoforknetwork.org/community-gardens/lederer/</span></div>]]></description>
+    <styleUrl>#style45</styleUrl>
+    <Point>
+      <coordinates>-76.933060,38.898479,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lovejoy Garden</name>
+    <description><![CDATA[<div dir="ltr"><span style="font-size:10pt"><a href="http://fieldtoforknetwork.org/community-gardens/lovejoy/" target="_blank">http://fieldtoforknetwork.org/community-gardens/lovejoy/</a></span></div><div dir="ltr"><span style="font-size:10pt"><br></span></div><div dir="ltr">Historic Lovejoy School&nbsp;</div>]]></description>
+    <styleUrl>#style37</styleUrl>
+    <Point>
+      <coordinates>-76.990967,38.895519,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bruce Monroe</name>
+    <description><![CDATA[<div dir="ltr"><br>&nbsp;</div><div dir="ltr"><br>&nbsp;</div><div dir="ltr"><a href="http://parkviewdc.wordpress.com/2011/01/12/bruce-monroe-park-to-get-water/" target="_blank">http://parkviewdc.wordpress.com/2011/01/12/bruce-monroe-park-to-get-water/</a></div>]]></description>
+    <styleUrl>#style11</styleUrl>
+    <Point>
+      <coordinates>-77.024597,38.928314,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Emery Rec Center Garden</name>
+    <description><![CDATA[<div dir="ltr">http://fieldtoforknetwork.org/community-gardens/emery/</div>]]></description>
+    <styleUrl>#style27</styleUrl>
+    <Point>
+      <coordinates>-77.026245,38.959854,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Takoma Rec Comm Garden</name>
+    <description><![CDATA[<div dir="ltr"><a href="http://fieldtoforknetwork.org/wp-content/uploads/2010/02/takoma1.jpg" target="_blank">http://fieldtoforknetwork.org/community-gardens/takoma/</a></div>]]></description>
+    <styleUrl>#style21</styleUrl>
+    <Point>
+      <coordinates>-77.016495,38.970409,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kalorama Garden</name>
+    <description><![CDATA[<div dir="ltr"><a href="http://fieldtoforknetwork.org/community-gardens/kalorama/" target="_blank">http://fieldtoforknetwork.org/community-gardens/kalorama/</a></div>]]></description>
+    <styleUrl>#style28</styleUrl>
+    <Point>
+      <coordinates>-77.044952,38.920574,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Mamie D Lee</name>
+    <description><![CDATA[<div dir="ltr"><a href="http://mamiedleegarden.blogspot.com/" style="font-size:10pt" target="_blank">http://mamiedleegarden.blogspot.com/</a><br><br><a href="http://fieldtoforknetwork.org/community-gardens/mamie-d-lee/" target="_blank">http://fieldtoforknetwork.org/community-gardens/mamie-d-lee/</a></div>]]></description>
+    <styleUrl>#style14</styleUrl>
+    <Point>
+      <coordinates>-77.006454,38.952999,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Melvin Hazen Garden</name>
+    <description><![CDATA[<div dir="ltr" style="font-family:arial;font-size:10pt"><a href="https://sites.google.com/site/melvinhazengarden/home" target="_blank">https://sites.google.com/site/melvinhazengarden/home</a></div><div dir="ltr" style="font-family:arial;font-size:10pt"><span style="font-size:10pt">&nbsp;</span></div><div dir="ltr"><font face="arial"><span style="font-size:13px"><a href="http://fieldtoforknetwork.org/community-gardens/melvin-hazen/" target="_blank">http://fieldtoforknetwork.org/community-gardens/melvin-hazen/</a></span></font></div>]]></description>
+    <styleUrl>#style22</styleUrl>
+    <Point>
+      <coordinates>-77.062286,38.939323,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fort Reno Garden</name>
+    <description><![CDATA[<div dir="ltr"><a href="http://fieldtoforknetwork.org/community-gardens/fort-reno/" style="font-size:10pt" target="_blank">http://fieldtoforknetwork.org/community-gardens/fort-reno/</a></div>]]></description>
+    <styleUrl>#style36</styleUrl>
+    <Point>
+      <coordinates>-77.079697,38.951618,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Glover Archbold Garden</name>
+    <description><![CDATA[<div dir="ltr"><a href="http://www.gloverparkdc.com/gardens.html" target="_blank">http://www.gloverparkdc.com/gardens.html</a></div><div dir="ltr"><br><a href="http://fieldtoforknetwork.org/community-gardens/glover-archbald/" target="_blank">http://fieldtoforknetwork.org/community-gardens/glover-archbald/</a></div>]]></description>
+    <styleUrl>#style46</styleUrl>
+    <Point>
+      <coordinates>-77.081902,38.925388,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Whitehaven Garden</name>
+    <description><![CDATA[<div dir="ltr"><font face="arial"><span style="font-size:13px"><a href="http://www.gloverparkdc.com/gardens.html" target="_blank">http://www.gloverparkdc.com/gardens.html</a></span></font></div><div dir="ltr" style="font-family:arial;font-size:10pt"><br>&nbsp;</div><div dir="ltr" style="font-family:arial;font-size:10pt"><a href="http://fieldtoforknetwork.org/community-gardens/whitehaven/" style="font-size:10pt" target="_blank">http://fieldtoforknetwork.org/community-gardens/whitehaven/</a></div><div dir="ltr" style="font-family:arial;font-size:10pt"><br>&nbsp;</div><div dir="ltr" style="font-family:arial;font-size:10pt">NPS - part of Glover Archbold Park</div>]]></description>
+    <styleUrl>#style15</styleUrl>
+    <Point>
+      <coordinates>-77.078178,38.918068,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Peabody Garden</name>
+    <description><![CDATA[<div dir="ltr"><a href="http://fieldtoforknetwork.org/community-gardens/peabody/" target="_blank">http://fieldtoforknetwork.org/community-gardens/peabody/</a></div>]]></description>
+    <styleUrl>#style26</styleUrl>
+    <Point>
+      <coordinates>-77.025139,38.963161,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fort Dupont</name>
+    <description><![CDATA[<div dir="ltr"><a href="http://www.nps.gov/fodu/fort-dupont-community-gardens.htm" style="font-size:10pt" target="_blank">http://www.nps.gov/fodu/fort-dupont-community-gardens.htm</a></div>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>-76.949829,38.876625,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Blair Road Garden</name>
+    <description><![CDATA[<div dir="ltr" style="font-family:arial;font-size:10pt"><a href="http://blairgarden.blogspot.com/" target="_blank">http://blairgarden.blogspot.com/</a></div>
+<div dir="ltr" style="font-family:arial;font-size:10pt"><br>&nbsp;</div>
+<div dir="ltr"><font face="arial"><span style="font-size:13px"><a href="http://fieldtoforknetwork.org/community-gardens/blair-road/" target="_blank">http://fieldtoforknetwork.org/community-gardens/blair-road/</a></span></font></div>]]></description>
+    <styleUrl>#style42</styleUrl>
+    <Point>
+      <coordinates>-77.008263,38.960678,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Ft Stevens</name>
+    <description><![CDATA[<div dir="ltr"><a href="http://fieldtoforknetwork.org/community-gardens/emery/" target="_blank">http://fieldtoforknetwork.org/community-gardens/fort-stevens/</a></div>]]></description>
+    <styleUrl>#style49</styleUrl>
+    <Point>
+      <coordinates>-77.030434,38.963661,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Independance Garden</name>
+    <description><![CDATA[<div dir="ltr"><span style="font-size:10pt"><a href="http://fieldtoforknetwork.org/community-gardens/independence/" target="_blank">http://fieldtoforknetwork.org/community-gardens/independence/</a></span></div><div dir="ltr"><span style="font-size:10pt"><br></span></div><div dir="ltr">(Will be lost to Eisenhower Memorial)</div>]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>-77.019524,38.887291,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Rock Creek Garden</name>
+    <description><![CDATA[<font face="arial"><span style="font-size:13px"><a href="http://fieldtoforknetwork.org/community-gardens/rock-creek/" target="_blank">http://fieldtoforknetwork.org/community-gardens/rock-creek/</a></span></font>]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>-77.053581,38.966747,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Montana Garden</name>
+    <description><![CDATA[<div dir="ltr"><a href="http://fieldtoforknetwork.org/community-gardens/montana/" target="_blank">http://fieldtoforknetwork.org/community-gardens/montana/</a><br><br>(Unknown landowner)</div>]]></description>
+    <styleUrl>#style35</styleUrl>
+    <Point>
+      <coordinates>-76.981041,38.921715,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kingman-Rosedale</name>
+    <description><![CDATA[<div dir="ltr"><a href="http://kprgarden.org/" style="font-size:10pt" target="_blank">http://kprgarden.org/</a></div><div dir="ltr"><br>&nbsp;</div><div dir="ltr"><br>&nbsp;</div>]]></description>
+    <styleUrl>#style32</styleUrl>
+    <Point>
+      <coordinates>-76.975563,38.895569,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Marion Street International Garden</name>
+    <description><![CDATA[<a href="http://cityblossoms.org/projects/marion-garden/" style="font-size:10pt" target="_blank">http://cityblossoms.org/projects/marion-garden/</a><div><br>&nbsp;</div><div>Managed by City Blossoms</div>]]></description>
+    <styleUrl>#style20</styleUrl>
+    <Point>
+      <coordinates>-77.020729,38.910278,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>13th st SE</name>
+    <description><![CDATA[<div dir="ltr"><font face="arial"><span style="font-size:13px"><a href="http://www.13thstreetgarden.org/history.html" target="_blank">http://www.13thstreetgarden.org/history.html</a></span></font></div><div dir="ltr" style="font-family:arial;font-size:10pt">Unknown land owner</div>]]></description>
+    <styleUrl>#style40</styleUrl>
+    <Point>
+      <coordinates>-76.988068,38.885208,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hill East Community Garden</name>
+    <description><![CDATA[<div dir="ltr"><a href="http://hilleastgarden.org/Hill_East_Community_Garden/home.html" target="_blank">http://hilleastgarden.org/Hill_East_Community_Garden/home.html</a></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-76.979851,38.883545,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hilton Garden</name>
+    <description><![CDATA[<div dir="ltr"><a href="http://fieldtoforknetwork.org/community-gardens/hilton/" target="_blank">http://fieldtoforknetwork.org/community-gardens/hilton/</a></div>]]></description>
+    <styleUrl>#style38</styleUrl>
+    <Point>
+      <coordinates>-76.998734,38.892586,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>King&#39;s Court</name>
+    <description><![CDATA[<div dir="ltr"><br><a href="http://fieldtoforknetwork.org/community-gardens/kings-court/" target="_blank">http://fieldtoforknetwork.org/community-gardens/kings-court/</a><br><br>First of Capitol Hill Community Garden Land trust</div>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-76.984314,38.886421,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pomegranate Alley</name>
+    <description><![CDATA[<div dir="ltr"><a href="http://fieldtoforknetwork.org/community-gardens/pomegranate-alley/" target="_blank">http://fieldtoforknetwork.org/community-gardens/pomegranate-alley/</a></div>]]></description>
+    <styleUrl>#style25</styleUrl>
+    <Point>
+      <coordinates>-76.992294,38.878788,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Waterside Garden</name>
+    <description><![CDATA[<div dir="ltr" style="font-family:arial;font-size:10pt"><a href="http://fieldtoforknetwork.org/community-gardens/waterside/" target="_blank">http://fieldtoforknetwork.org/community-gardens/waterside/</a></div><div dir="ltr" style="font-family:arial;font-size:10pt"><br>&nbsp;</div><div dir="ltr"><font face="arial"><span style="font-size:13px"><a href="http://swfcg.org/" target="_blank">http://swfcg.org/</a></span></font></div>]]></description>
+    <styleUrl>#style30</styleUrl>
+    <Point>
+      <coordinates>-77.020531,38.876385,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Shipley Community Garden</name>
+    <description><![CDATA[<div dir="ltr"><font face="arial"><span style="font-size:13px"><a href="http://www.congressheightsontherise.com/2009/09/shipley-community-garden-club-invites.html" target="_blank">http://www.congressheightsontherise.com/2009/09/shipley-community-garden-club-invites.html</a></span></font></div><div dir="ltr" style="font-family:arial;font-size:10pt"><br>&nbsp;</div><div dir="ltr" style="font-family:arial;font-size:10pt"><br>&nbsp;</div><div dir="ltr" style="font-family:arial;font-size:10pt"><a href="http://fieldtoforknetwork.org/community-gardens/shipley/" target="_blank">http://fieldtoforknetwork.org/community-gardens/shipley/</a></div><div dir="ltr" style="font-family:arial;font-size:10pt"><br>&nbsp;</div>]]></description>
+    <styleUrl>#style39</styleUrl>
+    <Point>
+      <coordinates>-76.971146,38.847866,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Wangari Garden</name>
+    <description><![CDATA[<div dir="ltr"><a href="http://wangarigardens.wordpress.com/" target="_blank">http://wangarigardens.wordpress.com/</a></div>]]></description>
+    <styleUrl>#style29</styleUrl>
+    <Point>
+      <coordinates>-77.016197,38.931629,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kingman Island Envonronmental Ed Ctr</name>
+    <description><![CDATA[<div dir="ltr"><a href="http://www.livingclassroomsdc.org/kiingman_island.html" target="_blank">http://www.livingclassroomsdc.org/kiingman_island.html</a></div>]]></description>
+    <styleUrl>#style34</styleUrl>
+    <Point>
+      <coordinates>-76.963249,38.896870,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Deanwood Learning Garden</name>
+    <description><![CDATA[<div dir="ltr"><a href="http://groundworkdc.org/programs/deanwood-learning-garden/" target="_blank">http://groundworkdc.org/programs/deanwood-learning-garden/</a></div>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>-76.934021,38.902710,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Virginia Avenue</name>
+    <description><![CDATA[<div dir="ltr"><a href="http://fieldtoforknetwork.org/community-gardens/virginia-ave/" target="_blank">http://fieldtoforknetwork.org/community-gardens/virginia-ave/</a><br><br>DPR? NPS? Marine Corp?<br>Rights endangered</div>]]></description>
+    <styleUrl>#style18</styleUrl>
+    <Point>
+      <coordinates>-76.993492,38.877392,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Stadium Armory</name>
+    <description><![CDATA[<div dir="ltr">No information </div>]]></description>
+    <styleUrl>#style47</styleUrl>
+    <Point>
+      <coordinates>-76.977043,38.885986,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Gorla Community Farm</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>-77.013390,38.902847,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Wylie St Garden</name>
+    <description><![CDATA[<font face="arial"><span style="font-size:13px"><a href="http://fieldtoforknetwork.org/community-gardens/wylie-street/" target="_blank">http://fieldtoforknetwork.org/community-gardens/wylie-street/</a></span></font>]]></description>
+    <styleUrl>#style12</styleUrl>
+    <Point>
+      <coordinates>-76.988510,38.900646,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Quincy St. Community Garden</name>
+    <description><![CDATA[<div dir="ltr">Informal neighborhood garden. People from several local homes cultivate this land.</div>]]></description>
+    <styleUrl>#style16</styleUrl>
+    <Point>
+      <coordinates>-77.027893,38.938114,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>SW Community Gardens</name>
+    <description><![CDATA[<div dir="ltr">1098 Delaware Avenue Southwest<br>Washington, DC 20024<br><br>www.swgardens.org</div>]]></description>
+    <styleUrl>#style43</styleUrl>
+    <Point>
+      <coordinates>-77.012924,38.878166,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>LeDroit Park Community Garden</name>
+    <description><![CDATA[<div dir="ltr">https://www.facebook.com/LeDroitParkCommunityGarden<br><br>or reach them at ledroit.com.garden@gmail.com</div>]]></description>
+    <styleUrl>#style48</styleUrl>
+    <Point>
+      <coordinates>-77.016678,38.917934,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Palisades Community Garden</name>
+    <description><![CDATA[<div> <span><span>5200 Sherier Pl NW</span></span>      </div>    <span> <span>Washington, DC 20016</span> ‎ </span>]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>-77.103378,38.925278,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Twin Oaks Community Garden</name>
+    <description><![CDATA[<div dir="ltr">Twin Oaks – 14th &amp; Taylor Street, NW</div>]]></description>
+    <styleUrl>#style44</styleUrl>
+    <Point>
+      <coordinates>-77.032364,38.940693,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Noyes Community Garden</name>
+    <description><![CDATA[<div dir="ltr">Noyes – 10th and Franklin st, NE</div>]]></description>
+    <styleUrl>#style23</styleUrl>
+    <Point>
+      <coordinates>-76.992271,38.925888,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Neighborhood Farm Initiative</name>
+    <description><![CDATA[http://www.neighborhoodfarminitiative.org/]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>-77.006157,38.952862,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hardy Community Garden</name>
+    <description><![CDATA[<div dir="ltr">4500 Q St NW</div>]]></description>
+    <styleUrl>#style24</styleUrl>
+    <Point>
+      <coordinates>-77.084908,38.909317,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>
