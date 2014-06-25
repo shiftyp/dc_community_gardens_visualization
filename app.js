@@ -43,9 +43,9 @@ for (var j = 0; j < kmlsToJson.length; j++) {
 		key = key.substring(0, key.length);
 
 		if (key in collectedDataPoints) {
-			console.log("already exists");
-			console.log(key);
-			console.log("-----");
+			//console.log("already exists");
+			//console.log(key);
+			//console.log("-----");
 			if (property.properties && property.properties.description) {
 				collectedDataPoints[key].description = property.properties.description;
 			}
