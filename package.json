@@ -1,0 +1,10 @@
+{
+	"name": "codefordc-gardens",
+	"description": "Code for DC Challenge: Community Gardens",
+	"version": "0.0.1",
+	"dependencies": {
+		"togeojson": "*",
+		"jsdom": "*",
+		"lodash": "*"
+	}
+}
