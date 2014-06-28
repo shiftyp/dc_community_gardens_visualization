@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
@@ -12,24 +13,27 @@ layout: default
 	</div>
 	
 	<script type="text/javascript">
-		window.onload = function() {
+		$(function() {
 			var mapOptions = {
-					center: new google.maps.LatLng(38.89,-77.04),
-					zoom: 7,
-					mapTypeId: google.maps.MapTypeId.TERRAIN
-				},
-				map = new google.maps.Map($("#map")[0],mapOptions),
-				kml = new google.maps.KmlLayer({
-					url:"https://maps.google.com/maps/ms?dg=feature&ie=UTF8&authuser=0&msa=0&output=kml&msid=217853188277945286518.0004d39ae14a3cd572a39",
-					map:map
+				center: new google.maps.LatLng(38.89,-77.04),
+				zoom: 7,
+				mapTypeId: google.maps.MapTypeId.TERRAIN
+			};
+			var map = new google.maps.Map($("#map")[0],mapOptions);
+			var bounds = new google.maps.LatLngBounds();
+			var markers = [];
+
+			$.get('data.json', function(data){
+				_.forOwn(data, function(datum){
+					var coords = _.map(datum.coordinates, parseFloat);
+					var location = new google.maps.LatLng(coords[1],coords[0]);
+					markers.push(new google.maps.Marker({
+						position: location,
+						map: map
+					}));
+					bounds.extend(location);
+					map.fitBounds(bounds);
 				});
-				
-				// get json 
-				// for item in json
-				//marker = new google.maps.Marker({
-				//	position: new google.maps.LatLng(lat,lon),
-				//	map: map
-				//})
-				
-		}
+			});
+		});
 	</script>
