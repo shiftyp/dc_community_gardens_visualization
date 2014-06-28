@@ -58,4 +58,4 @@ for (var j = 0; j < kmlsToJson.length; j++) {
 	}
 }
 
-console.log(_.values(collectedDataPoints));
+fs.writeFileSync('data.json', JSON.stringify(collectedDataPoints));
