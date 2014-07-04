@@ -3,7 +3,7 @@ window.onload = function(){
 
 	var mapOptions = {
 		center: new google.maps.LatLng(38.89,-77.04),
-		zoom: 7,
+		zoom: 9,
 		mapTypeId: google.maps.MapTypeId.TERRAIN
 	};
 	var map = new google.maps.Map($("#map")[0],mapOptions);
