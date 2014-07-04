@@ -8,7 +8,7 @@ window.onload = function(){
  	var bounds = new google.maps.LatLngBounds();
 	var markers = [];
 
-	$.get('../cleaned.json', function(data){
+	$.get('https://github.com/shiftyp/dc_community_gardens_visualization/tree/gh-pages/cleaned.json', function(data){
 		_.forOwn(data, function(datum){
 			console.log(datum);
 			var lat = _.map(datum.Lat, parseFloat),
