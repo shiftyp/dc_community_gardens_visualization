@@ -9,7 +9,8 @@ window.onload = function(){
 	var markers = [];
 
 	console.log("here")
-	var json = $.getJSON('cleaned.json');
+	$.get('cleaned.json',function(data) {
+	var json = data;
 	console.log(json);
 		$.each(JSON.parse(json), function(key,value) {
 			var lat = _.map(value.Lat, parseFloat),
@@ -32,7 +33,8 @@ window.onload = function(){
 			mkr.set('phone',value.Phone);
 			
 			//tt(foo,mkr);
-		});
+		})
+		}
 	
 	/*$.get('cleaned.json', function(data){
 		console.log('in get');
