@@ -7,7 +7,7 @@ window.onload = function(){
 		mapTypeId: google.maps.MapTypeId.TERRAIN
 	};
 	var map = new google.maps.Map($("#map")[0],mapOptions);
-/* 	var bounds = new google.maps.LatLngBounds();
+ 	var bounds = new google.maps.LatLngBounds();
 	var markers = [];
 
 	$.get('cleaned.json', function(data){
@@ -34,7 +34,7 @@ window.onload = function(){
 			tt(foo,mkr);
 		});
 	});
-
+/* 
 	// Tooltip function w/callback
 	function tt(clbk,mkr) {
 		clbk(mkr);
@@ -157,6 +157,6 @@ window.onload = function(){
 		if (this.div_) {
 			this.div_.style.visibility = "visible";
 		}
-	}	 */
+	} */
 };
 
