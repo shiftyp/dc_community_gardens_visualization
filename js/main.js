@@ -1,4 +1,6 @@
 window.onload = function(){
+	console.log("omfg just work already");
+
 	var mapOptions = {
 		center: new google.maps.LatLng(38.89,-77.04),
 		zoom: 7,
