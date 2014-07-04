@@ -10,6 +10,7 @@ window.onload = function(){
 
 	console.log("here")
 	var json = $.getJSON('cleaned.json');
+	console.log(json);
 		$.each(JSON.parse(json), function(key,value) {
 			var lat = _.map(value.Lat, parseFloat),
 			    lon = _.map(value.Lon, parseFloat),
