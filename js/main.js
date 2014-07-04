@@ -8,8 +8,8 @@ window.onload = function(){
  	var bounds = new google.maps.LatLngBounds();
 	var markers = [];
 
+	console.log("here")
 	$.getJSON('cleaned.json', function(datum) {
-		console.log("in");
 		$.each(datum,function() {
 			/*var lat = _.map(datum.Lat, parseFloat),
 			    lon = _.map(datum.Lon, parseFloat),
