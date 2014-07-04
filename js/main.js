@@ -9,8 +9,8 @@ window.onload = function(){
 	var markers = [];
 
 	$.getJSON('cleaned.json', function(datum) {
+		console.log("in");
 		$.each(datum,function() {
-			console.log("in")
 			/*var lat = _.map(datum.Lat, parseFloat),
 			    lon = _.map(datum.Lon, parseFloat),
 			    location = new google.maps.LatLng(lat,lon);
