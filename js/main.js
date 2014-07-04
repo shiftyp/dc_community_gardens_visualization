@@ -11,9 +11,8 @@ window.onload = function(){
 	console.log("here")
 	$.getJSON('cleaned.json', function(datum) {
 		$.each(datum,function(key,value) {
-			console.log(value.Lat);
-			/*var lat = _.map(datum.Lat, parseFloat),
-			    lon = _.map(datum.Lon, parseFloat),
+			var lat = _.map(value.Lat, parseFloat),
+			    lon = _.map(value.Lon, parseFloat),
 			    location = new google.maps.LatLng(lat,lon);
 			    mkr = markers.push(new google.maps.Marker({
 					position: location,
@@ -23,15 +22,15 @@ window.onload = function(){
 			map.fitBounds(bounds);
 			
 			// Set metadata for marker tooltip
-			mkr.set('name',datum.Name);
-			mkr.set('website',datum.Website);
-			mkr.set('address',datum.Address);
-			mkr.set('plots',datum.Plots);
-			mkr.set('list',datum.List);
-			mkr.set('email',datum.Email);
-			mkr.set('phone',datum.Phone);
+			mkr.set('name',value.Name);
+			mkr.set('website',value.Website);
+			mkr.set('address',value.Address);
+			mkr.set('plots',value.Plots);
+			mkr.set('list',value.List);
+			mkr.set('email',value.Email);
+			mkr.set('phone',value.Phone);
 			
-			//tt(foo,mkr);*/
+			//tt(foo,mkr);
 		})
 	});
 	
