@@ -6,62 +6,34 @@ window.onload = function(){
 	};
 	var map = new google.maps.Map($("#map")[0],mapOptions);
  	var bounds = new google.maps.LatLngBounds();
-	var markers = [];
 
-	console.log("here")
-	var json = load('cleaned.json');
-	console.log(json);
-		$.each($.parseJSON(json), function(key,value) {
-			console.log(value.Lat);
-			var lat = _.map(value.Lat, parseFloat),
-			    lon = _.map(value.Lon, parseFloat),
-			    location = new google.maps.LatLng(lat,lon);
-			    mkr = markers.push(new google.maps.Marker({
+	$.getJSON('cleaned.json',function(data) {
+		var json = data;
+		$.each(json, function(i,val) {
+ 			var lat = parseFloat(val["Lat"]),
+			    lon = parseFloat(val["Lon"]);
+			var location = new google.maps.LatLng(lat,lon),
+			    mkr = new google.maps.Marker({
 					position: location,
 					map: map
-				}));
+				});
 			bounds.extend(location);
 			map.fitBounds(bounds);
 			
 			// Set metadata for marker tooltip
-			mkr.set('name',value.Name);
-			mkr.set('website',value.Website);
-			mkr.set('address',value.Address);
-			mkr.set('plots',value.Plots);
-			mkr.set('list',value.List);
-			mkr.set('email',value.Email);
-			mkr.set('phone',value.Phone);
+			mkr.set('name',val["Name"]);
+			mkr.set('website',val["Website"]);
+			mkr.set('address',val["Address"]);
+			mkr.set('plots',val["Plots"]);
+			mkr.set('list',val["List"]);
+			mkr.set('email',val["Email"]);
+			mkr.set('phone',val["Phone"]);
 			
-			//tt(foo,mkr);
-		});
-	
-	/*$.get('cleaned.json', function(data){
-		console.log('in get');
-		_.forOwn(data, function(datum){
-			console.log(datum);
-			var lat = _.map(datum.Lat, parseFloat),
-			    lon = _.map(datum.Lon, parseFloat),
-			    location = new google.maps.LatLng(lat,lon);
-			    mkr = markers.push(new google.maps.Marker({
-					position: location,
-					map: map
-				}));
-			bounds.extend(location);
-			map.fitBounds(bounds);
-			
-			// Set metadata for marker tooltip
-			mkr.set('name',datum.Name);
-			mkr.set('website',datum.Website);
-			mkr.set('address',datum.Address);
-			mkr.set('plots',datum.Plots);
-			mkr.set('list',datum.List);
-			mkr.set('email',datum.Email);
-			mkr.set('phone',datum.Phone);
-			
-			//tt(foo,mkr);
-		});
+			tt(foo,mkr);
+		})
 	});
-/* 
+	
+
 	// Tooltip function w/callback
 	function tt(clbk,mkr) {
 		clbk(mkr);
@@ -101,7 +73,7 @@ window.onload = function(){
 		}
 
 		//create an options object
-		var tooltipOptions={ marker:mkr, content:tooltipHtml, cssClass:'tooltip'};
+		var tooltipOptions={ marker:mkr, content:tooltipHTML, cssClass:'tooltip'};
 		// create the tooltip
 		var tooltip = new Tooltip(tooltipOptions);
 	}
@@ -166,6 +138,7 @@ window.onload = function(){
 		var div = this.div_;
 		div.style.left = ne.x + 'px';
 		div.style.top = ne.y + 'px';
+		console.log($(div).css())
 	}
 
 	// We here implement onRemove
@@ -184,6 +157,6 @@ window.onload = function(){
 		if (this.div_) {
 			this.div_.style.visibility = "visible";
 		}
-	} */
+	}
 };
 

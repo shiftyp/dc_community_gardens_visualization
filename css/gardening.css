@@ -16,3 +16,10 @@ body {
 .info{
  font-size:150%;
 }
+
+.tooltip {
+ border:thin 1px #eee;
+ background-color:#FFFBF0;
+ padding:5px;
+ width:200px;
+}
