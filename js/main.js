@@ -10,7 +10,7 @@ window.onload = function(){
 
 	$.getJSON('cleaned.json', function(datum) {
 		$.each(datum,function() {
-			console.log(datum.Lat)
+			console.log("in")
 			/*var lat = _.map(datum.Lat, parseFloat),
 			    lon = _.map(datum.Lon, parseFloat),
 			    location = new google.maps.LatLng(lat,lon);
