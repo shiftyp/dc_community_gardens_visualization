@@ -1,4 +1,4 @@
-$(function(){
+window.onload = function(){
 	var mapOptions = {
 		center: new google.maps.LatLng(38.89,-77.04),
 		zoom: 7,
@@ -32,7 +32,7 @@ $(function(){
 			tt(foo,mkr);
 		});
 	});
-});
+};
 
 // Tooltip function w/callback
 function tt(clbk,mkr) {
