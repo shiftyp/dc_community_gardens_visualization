@@ -34,7 +34,7 @@ window.onload = function(){
 			
 			//tt(foo,mkr);
 		})
-		}
+		});
 	
 	/*$.get('cleaned.json', function(data){
 		console.log('in get');
