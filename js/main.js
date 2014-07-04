@@ -1,6 +1,4 @@
 window.onload = function(){
-	console.log("omfg just work already");
-
 	var mapOptions = {
 		center: new google.maps.LatLng(38.89,-77.04),
 		zoom: 9,
@@ -12,6 +10,7 @@ window.onload = function(){
 
 	$.get('cleaned.json', function(data){
 		_.forOwn(data, function(datum){
+			console.log(datum);
 			var lat = _.map(datum.Lat, parseFloat),
 			    lon = _.map(datum.Lon, parseFloat),
 			    location = new google.maps.LatLng(lat,lon);
