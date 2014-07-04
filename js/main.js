@@ -11,7 +11,7 @@ window.onload = function(){
 	console.log("here")
 	$.get('cleaned.json',function(data) {
 	var json = data;
-		$.each(JSON.parse(json), function(key,value) {
+		$.each($.parseJSON(json), function(key,value) {
 			console.log(value.Lat);
 			var lat = _.map(value.Lat, parseFloat),
 			    lon = _.map(value.Lon, parseFloat),
