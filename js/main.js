@@ -8,7 +8,33 @@ window.onload = function(){
  	var bounds = new google.maps.LatLngBounds();
 	var markers = [];
 
-	$.get('cleaned.json', function(data){
+	$.getJSON('cleaned.json', function(datum) {
+		$.each(datum,function() {
+			console.lot(datum.Lat)
+			/*var lat = _.map(datum.Lat, parseFloat),
+			    lon = _.map(datum.Lon, parseFloat),
+			    location = new google.maps.LatLng(lat,lon);
+			    mkr = markers.push(new google.maps.Marker({
+					position: location,
+					map: map
+				}));
+			bounds.extend(location);
+			map.fitBounds(bounds);
+			
+			// Set metadata for marker tooltip
+			mkr.set('name',datum.Name);
+			mkr.set('website',datum.Website);
+			mkr.set('address',datum.Address);
+			mkr.set('plots',datum.Plots);
+			mkr.set('list',datum.List);
+			mkr.set('email',datum.Email);
+			mkr.set('phone',datum.Phone);
+			
+			//tt(foo,mkr);*/
+		})
+	});
+	
+	/*$.get('cleaned.json', function(data){
 		console.log('in get');
 		_.forOwn(data, function(datum){
 			console.log(datum);
