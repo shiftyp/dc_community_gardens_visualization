@@ -31,7 +31,7 @@ window.onload = function(){
 			mkr.set('email',datum.Email);
 			mkr.set('phone',datum.Phone);
 			
-			tt(foo,mkr);
+			//tt(foo,mkr);
 		});
 	});
 /* 
