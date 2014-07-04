@@ -9,7 +9,7 @@ window.onload = function(){
 	var markers = [];
 
 	console.log("here")
-	$.getJSON('../cleaned.json', function(datum) {
+	$.getJSON('cleaned.json', function(datum) {
 		$.each(datum,function() {
 			/*var lat = _.map(datum.Lat, parseFloat),
 			    lon = _.map(datum.Lon, parseFloat),
