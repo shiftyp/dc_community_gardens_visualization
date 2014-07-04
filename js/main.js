@@ -9,8 +9,8 @@ window.onload = function(){
 	var markers = [];
 
 	console.log("here")
-	$.getJSON('cleaned.json', function(datum) {
-		$datum.each(function(key,value) {
+	var json = $.getJSON('cleaned.json');
+		$datum.each(JSON.parse(json), function(key,value) {
 			var lat = _.map(value.Lat, parseFloat),
 			    lon = _.map(value.Lon, parseFloat),
 			    location = new google.maps.LatLng(lat,lon);
@@ -31,8 +31,7 @@ window.onload = function(){
 			mkr.set('phone',value.Phone);
 			
 			//tt(foo,mkr);
-		})
-	});
+		});
 	
 	/*$.get('cleaned.json', function(data){
 		console.log('in get');
