@@ -73,7 +73,7 @@ window.onload = function(){
 		}
 
 		//create an options object
-		var tooltipOptions={ marker:mkr, content:tooltipHTML, cssClass:'tooltip'};
+		var tooltipOptions={ marker:mkr, content:tooltipHTML, cssClass:'map_tooltip'};
 		// create the tooltip
 		var tooltip = new Tooltip(tooltipOptions);
 	}
