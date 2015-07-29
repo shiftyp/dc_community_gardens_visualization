@@ -1,0 +1,47 @@
+{
+    "conformsTo": "http://codefordc.org/resources/specification.html",
+    "status": "alpha",
+    "thumbnailUrl": "n/a",
+    "contact": {
+        "name": "shiftyp",
+        "email": "",
+        "twitter": ""
+    },
+    "bornAt": "unknown",
+    "geography": "Washington, DC",
+    "politicalEntity": {},
+    "governmentPartner": {},
+    "communityPartner": {
+        "": ""
+    },
+    "type": "Web App",
+    "data": {
+        "DC Community Gardens": "http://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Environment_WebMercator/MapServer/4?f=pjson"
+    },
+    "needs": [
+        {
+            "need": "more documentation"
+        },
+        {
+            "need": "thumbnail URL"
+        },
+        {
+            "need": ""
+        }
+    ],
+    "categories": [
+        {
+            "category": "land use"
+        },
+        {
+            "category": "open data"
+        },
+        {
+            "category": "visualization"
+        },
+        {
+            "category": ""
+        }
+    ],
+    "moreInfo": ""
+}
