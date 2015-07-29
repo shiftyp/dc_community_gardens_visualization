@@ -1,7 +1,7 @@
 {
     "conformsTo": "http://codefordc.org/resources/specification.html",
     "status": "alpha",
-    "thumbnailUrl": "n/a",
+    "thumbnailUrl": "http://shiftyp.github.io/dc_community_gardens_visualization/",
     "contact": {
         "name": "shiftyp",
         "email": "",
@@ -20,10 +20,10 @@
     },
     "needs": [
         {
-            "need": "more documentation"
+            "need": ""
         },
         {
-            "need": "thumbnail URL"
+            "need": ""
         },
         {
             "need": ""
